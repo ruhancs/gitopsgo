@@ -1,0 +1,2 @@
+todo processo de push no github, ci-cd e deploy no cluster kubernets automatizado
+um agente fica verificando se a versao do repositorio é a mesma rodando no kubernets

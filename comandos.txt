@@ -1,0 +1,8 @@
+executar docker
+docker build -t ruhancs/gogitops:latest .
+
+rodar o container criado e destruir ao parar o container
+docker run --rm -p 8000:8000 ruhancs/gogitops:latest
+
+subir o docker
+docker push ruhancs/gogitops:latest
