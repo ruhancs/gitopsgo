@@ -6,3 +6,9 @@ docker run --rm -p 8000:8000 ruhancs/gogitops:latest
 
 subir o docker
 docker push ruhancs/gogitops:latest
+
+criar cluster do kubernets
+kind create cluster --name=gitopsgo
+
+aplicar o contexto para entrar no cluster
+kubectl cluster-info --context kind-gitopsgo
